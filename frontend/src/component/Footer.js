@@ -64,22 +64,22 @@ function Footer() {
                         <span class="border"></span>
                     </div>
                     <ul class="usefull-links fl-lft">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Procedures</a></li>
-                        <li><a href="#">News &amp; Tips</a></li>
-                        <li><a href="#">Threrapists</a></li>
-                        <li><a href="#">Advice</a></li>
-                        <li><a href="#">Stories</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="az.c">About Us</a></li>
+                        <li><a href="az.c">Procedures</a></li>
+                        <li><a href="az.c">News &amp; Tips</a></li>
+                        <li><a href="az.c">Threrapists</a></li>
+                        <li><a href="az.c">Advice</a></li>
+                        <li><a href="az.c">Stories</a></li>
+                        <li><a href="az.c">FAQ's</a></li>
+                        <li><a href="az.c">Contact Us</a></li>
                     </ul>
                     <ul class="usefull-links">
-                        <li><a href="#">Resourses</a></li>
-                        <li><a href="#">Get Offers</a></li>
-                        <li><a href="#">Appointment</a></li>
-                        <li><a href="#">Certificates</a></li>
-                        <li><a href="#">Qualifications</a></li>
-                        <li><a href="#">Private Policy</a></li>
+                        <li><a href="az.c">Resourses</a></li>
+                        <li><a href="az.c">Get Offers</a></li>
+                        <li><a href="az.c">Appointment</a></li>
+                        <li><a href="az.c">Certificates</a></li>
+                        <li><a href="az.c">Qualifications</a></li>
+                        <li><a href="az.c">Private Policy</a></li>
                     </ul>
                 </div>
             </div>
