@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #404040;
+    margin: 0;
+}
+.welcome-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+.container1{
+    padding-right: 8% ;
+    margin-top: -6%;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-title h1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 32px;
+    padding-left: 15%;
+    padding-bottom: 2%;
+
+}
+.welcome-area .text-holder h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Courgette', cursive;
+    color: #888888;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.welcome-area .inner-content {
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: left;
+}
+.welcome-area .inner-content .single-item {
+    float: left;
+    width: 310px;
+    padding-right: 30px;
+}
+.welcome-area .inner-content .single-item.border {
+    border-left: 1px solid #f5f4f3;
+    padding-left: 30px;
+}
+.welcome-area .inner-content .single-item h3 {
+    margin: 0 0 15px;
+}
+.welcome-area .inner-content .single-item p{
+    font-family: "Open Sans", sans-serif;
+    color: #888888;
+}
+.welcome-area .text-holder .bottom {
+    margin: 30px 0 0;
+    position: relative;
+}
+.welcome-area .text-holder .bottom .read-more-button {
+    width: 180px;
+}
+.welcome-area .text-holder .bottom .read-more-button a{
+    padding: 12px 40px 12px;   
+}
+.welcome-area .text-holder .bottom .read-more-button,
+.welcome-area .text-holder .bottom .title{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welcome-area .text-holder .bottom .title{
+    padding-left: 30px;
+    padding-top: 27px;
+}
+.welcome-area .text-holder .bottom .title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.welcome-area .text-holder .bottom .title h2 span{
+    color: #2acb35;    
+}
+.welcome-area .img-holder {
+    padding-left: 9%;
+    padding-top: -2%;
+    
+}
+.welcome-area .img-holder img{
+    padding-left: 5%;
+    width: 400px;
+    height: 390px;
+    visibility: visible; 
+    animation-duration: 1500ms; 
+    animation-delay: 200ms; 
+    animation-name: slideInRight;
+
+}
+.thm-btn {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    border-radius: 30px;
+    padding: 12px 30px 12px;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.bgclr-1{
+    background: #2acb35;
+    border: 2px solid #2acb35;
+    color: #ffffff;
+}
+.thm-btn:hover{
+    background: transparent;
+    color: #222222;
+}
+
+.sec-title .border.mar0auto{
+    margin: 0 auto;
+}
+.sec-title h1 {
+    color: #404040;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0 0 9px;
+    padding-right: 50%;
+    margin-left: -15%;
+    margin-bottom: -1%;
+}
+.sec-title .border {
+    width: 152px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-bottom: -1.5%;
+}
+.sec-title .border img:before{
+    color: #2acb35;
+    font-size: 30px;
+    line-height: 30px;
+}
+.sec-title .borderimg {
+    filter: hue-rotate(120deg);
+  }
+.sec-title .border:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #2acb35;
+    content: "";
+    margin: 14px 0;
+}
+.sec-title .border:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 2px;
+    background: #2acb35;
+    content: "";
+    margin: 14px 0;
+}

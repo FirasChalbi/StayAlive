@@ -1,0 +1,94 @@
+.coloor{
+    height: 750px;
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+    
+}
+.hh h1{
+    color: white;   
+    font-size: 69px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.hh p{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Open sans', sans-serif;
+    color: white; 
+    text-align: center;
+}
+.tbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.sp{
+    width: 29px;
+}
+.thm-btn{
+    height: 40px;
+    width: 120px;
+    margin-top: 15%;
+    display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 2.7;
+}
+.bgclr-2{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #2acb35;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .p1{
+    size: 100px;
+    white-space:pre-wrap;
+  }
+
+  
+  .vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  
+  .coloor h2 {
+    font-size: 3em;
+    text-align: center;
+    z-index: 1;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 0, 8);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+/*
+background-image: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+*/
