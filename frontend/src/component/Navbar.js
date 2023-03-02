@@ -21,7 +21,7 @@ function Navbar() {
                                 <li><Link to="/">Home</Link></li>
                                 <li class="dropdown current"><Link to="/About-Us">About Us</Link>
                                     <ul>
-                                        <li><a to="/About-Us">About Stay Alive</a></li>
+                                        <li><a href="testimonials.html">About Stay Alive</a></li>
                                         <li><a href="testimonials.html">Testimonials</a></li>
                                         <li><a href="faq.html">FAQ</a></li>
                                         <li><a href="appointment.html">Make an Appointment</a></li>
@@ -40,9 +40,9 @@ function Navbar() {
                             <ul class="navigation">
                                 <li class="dropdown"><a href="blog-default.html">Blog</a>
                                     <ul>
-                                        <li><a href="blog-default.html">Blog</a></li>
-                                        <li><a href="blog-large.html">Blog</a></li>
-                                        <li><a href="blog-single.html">Blog</a></li>
+                                    <li><a href="blog-default.html">Default Blog</a></li>
+                                        <li><a href="blog-large.html">Large Blog</a></li>
+                                        <li><a href="blog-single.html">Single Blog Post</a></li>
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
                                 <li class="dropdown"><a href="gallery-grid.html">Advice</a>
