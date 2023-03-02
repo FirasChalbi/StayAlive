@@ -1,10 +1,15 @@
 import React from 'react'
-import ThirdSection from '../component/ThirdSection'
+import SecondSection from '../component/SecondSection'
+import TopTitle from '../component/TopTitle'
 
 function AboutUs() {
   return (
     <div>
-    <ThirdSection />
+    <TopTitle title="About Us"/>
+    <div >
+
+    </div>
+    <SecondSection />
     </div>
   )
 }
