@@ -21,14 +21,14 @@ function Navbar() {
                                 <li><Link to="/">Home</Link></li>
                                 <li class="dropdown current"><Link to="/About-Us">About Us</Link>
                                     <ul>
-                                        <li><a href="testimonials.html">About Stay Alive</a></li>
+                                        <li><Link to="/About-Us">About Stay Alive</Link></li>
                                         <li><a href="testimonials.html">Testimonials</a></li>
                                         <li><a href="faq.html">FAQ</a></li>
                                         <li><a href="appointment.html">Make an Appointment</a></li>
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
-                                <li><a href="therapists.html">Therapists</a></li>
-                                <li><a href="therapists.html">Therapists</a></li>
+                                <li><Link to="/Therapists">Therapists</Link></li>
+                                <li><Link to="/Therapists">Therapists</Link></li>
                             </ul>    
                         </div>
                         <div class="image">
@@ -38,22 +38,22 @@ function Navbar() {
                         </div>
                         <div class="nav-container nav-right">
                             <ul class="navigation">
-                                <li class="dropdown"><a href="blog-default.html">Blog</a>
+                                <li class="dropdown"><Link to="/Blog">Blog</Link>
                                     <ul>
-                                    <li><a href="blog-default.html">Default Blog</a></li>
-                                        <li><a href="blog-large.html">Large Blog</a></li>
-                                        <li><a href="blog-single.html">Single Blog Post</a></li>
+                                    <li><Link to="/Blog">Blog</Link></li>
+                                        <li><Link to="/Blog">Blog</Link></li>
+                                        <li><Link to="/Blog">Blog</Link></li>
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
-                                <li class="dropdown"><a href="gallery-grid.html">Advice</a>
+                                <li class="dropdown"><Link to="/Advice">Advice</Link>
                                     <ul>
                                         <li><a href="gallery-grid.html">***** ***** ****</a></li>
                                         <li><a href="gallery-without-grid.html">***** ***** ****</a></li>
                                         <li><a href="gallery-single.html">***** ***** ****</a></li>
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="therapists.html">resources</a></li>
+                                <li><Link to="/Contact-Us">Contact Us</Link></li>
+                                <li><Link to="/Resources">Resources</Link></li>
                             </ul>    
                         </div>
                         
