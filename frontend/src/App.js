@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        
         <div className='pages'>
           <Routes>
             <Route

@@ -1,0 +1,90 @@
+.breadcrumb-area {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 110px;
+    position: relative;
+    z-index: 1;
+}
+.container5{
+    display: flex;
+    padding-left: 10%;
+}
+.breadcrumb-area::before {
+    background: rgba(44, 203, 56, 0.80) none repeat scroll 0 0;
+    background-position: center top;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.breadcrumb-area .breadcrumbs h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.breadcrumb-bottom-area{
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 18px 0 15px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+.breadcrumb-bottom .left ul li{
+    color: #2acb35;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 6px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.breadcrumb-bottom .left ul li:last-child{
+    margin-right: 0;
+}
+.breadcrumb-bottom .left ul li a{
+    color: #303030;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition: all 500ms ease;
+}
+.breadcrumb-bottom .left ul li.active a{
+    color: #2acb35;    
+}
+.breadcrumb-bottom .left ul li a:hover{
+    color: #2acb35;    
+}
+.breadcrumb-bottom .left ul li FontAwesomeIcon{
+    font-size: 10px;
+    color: #2acb35;
+}
+.breadcrumb-bottom .right span{
+    color: #2acb35;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+}
+.breadcrumb-bottom .right span FontAwesomeIcon {
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 6px;
+}
+
+.breadcrumb-bottom .right a {
+    display: inline-block;
+}
+.breadcrumb-bottom .right span:hover{
+    color: #303030;    
+}

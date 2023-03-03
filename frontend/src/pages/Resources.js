@@ -1,8 +1,16 @@
 import React from 'react'
+import TopTitle from '../component/TopTitle'
+import Index from '../component/Index'
 
 function Resources() {
+  const name = "Resources"
   return (
-    <div>Resources</div>
+    
+    <div>
+      <TopTitle title={name}/>
+      <Index title={name}/>
+      <div style={{ height: '50px' }}></div>
+    </div>
   )
 }
 
