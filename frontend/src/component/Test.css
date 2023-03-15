@@ -1,0 +1,127 @@
+.quiz-button {
+	/* Font & Text */
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 13.6px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: 0.32px;
+	line-height: 16.32px;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: uppercase;
+	vertical-align:baseline;
+	white-space: normal;
+	word-spacing: 0.8px;
+
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(31, 180, 187);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(255, 255, 255);
+
+	/* Box */
+	height: 47.9125px;
+	width: 255.45px;
+	border: 0.8px solid rgb(31, 180, 187);
+	border-top: 0.8px solid rgb(31, 180, 187);
+	border-right: 0.8px solid rgb(31, 180, 187);
+	border-bottom: 0.8px solid rgb(31, 180, 187);
+	border-left: 0.8px solid rgb(31, 180, 187);
+	margin: 0px 0px 8px;
+	padding: 15px 20px 12px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+
+	/* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+
+	/* List */
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: default;
+	visibility: visible;
+
+	/* Effects */
+	transform: none;
+	transition: color 0.1s ease 0s, background-color 0.1s ease 0s;
+	outline: rgb(255, 0, 0) dashed 0.8px;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+.quiz-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .quiz-button.selected {
+    background-color: #008CBA;
+  }
+  
+  .quiz-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .quest{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+/*
+#input_1_5 > li.gchoice.gchoice_1_5_0{
+letter-spacing: .02em;
+word-spacing: .05em;
+list-style: none;
+outline: none;
+margin: 0;
+box-sizing: border-box;
+margin-bottom: .5rem;
+display: block;
+text-align: center;
+background: #f1f4f5;
+color: #154b5e;
+padding: 15px 20px 12px;
+height: calc(100% - 5px);
+text-transform: uppercase;
+font-size: .85em;
+line-height: 1.2em;
+border: 1px solid #d0d9e3;
+font-family: "Montserrat",Arial,Helvetica,sans-serif;
+font-weight: 600;
+border-radius: 40px;
+transition: color .1s ease,background-color .1s ease;
+}
+*/

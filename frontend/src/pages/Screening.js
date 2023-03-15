@@ -1,20 +1,19 @@
 import React from 'react'
 import TopTitle from '../component/TopTitle'
 import Index from '../component/Index'
-import ContactForm from '../component/ContactForm'
+import Test from '../component/Test'
 
-
-function ContactUs() {
-    const name = "Contact Us"
+function Screening() {
+  const name = "Screening"
   return (
     
     <div>
       <TopTitle title={name}/>
       <Index title={name}/>
       <div style={{ height: '50px' }}></div>
-      <ContactForm />
+      <Test />
     </div>
   )
 }
 
-export default ContactUs
+export default Screening

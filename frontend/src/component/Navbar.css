@@ -154,6 +154,7 @@ li {
     padding: 0;
     position: relative;
     width: 100%;
+    text-align: left;
 }
 .main-menu .navigation > li > ul > li:last-child{
     border-bottom: none;

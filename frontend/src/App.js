@@ -9,7 +9,7 @@ import Advice from './pages/Advice'
 import Therapists from './pages/Therapists'
 import Blog from './pages/Blog'
 import Resources from './pages/Resources'
-
+import Screening from './pages/Screening'
 
 function App() {
   return (
@@ -38,6 +38,10 @@ function App() {
             <Route
               path="/Resources"
               element={<Resources />}
+              />
+            <Route
+              path="/Screening"
+              element={<Screening />}
               />
             <Route
               path="/Therapists"

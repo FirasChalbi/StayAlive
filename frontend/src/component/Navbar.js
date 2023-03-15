@@ -28,13 +28,20 @@ function Navbar() {
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
                                 <li><Link to="/Therapists">Therapists</Link></li>
-                                <li><Link to="/Therapists">Therapists</Link></li>
-                            </ul>    
+                                <li class="dropdown"><Link to="/Screening">Screening</Link>
+                                    <ul>
+                                        <li><Link to="/About-Us">Depression Test</Link></li>
+                                        <li><a href="testimonials.html">Anxiety Test</a></li>
+                                        <li><a href="faq.html">PTSD Test</a></li>
+                                        <li><a href="appointment.html">See All Tests</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"></div></li>
+                            </ul>
                         </div>
                         <div class="image">
-                            <a href="index.html">
+                            <Link to="/">
                                 <img className='lg' src={logo} alt="Logo" />
-                            </a>
+                            </Link>
                         </div>
                         <div class="nav-container nav-right">
                             <ul class="navigation">
@@ -47,9 +54,9 @@ function Navbar() {
                                 <div class="dropdown-btn"></div></li>
                                 <li class="dropdown"><Link to="/Advice">Advice</Link>
                                     <ul>
-                                        <li><a href="gallery-grid.html">***** ***** ****</a></li>
-                                        <li><a href="gallery-without-grid.html">***** ***** ****</a></li>
-                                        <li><a href="gallery-single.html">***** ***** ****</a></li>
+                                        <li><a href="gallery.html">***** ***** ****</a></li>
+                                        <li><a href="gallery.html">***** ***** ****</a></li>
+                                        <li><a href="gallery.html">***** ***** ****</a></li>
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
                                 <li><Link to="/Contact-Us">Contact Us</Link></li>

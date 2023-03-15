@@ -1,0 +1,104 @@
+.contact-form-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+.row7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.quick-contact{
+    height: 444px;
+    width: 370px;
+}
+.contact-form-img {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    max-width: 470px;
+    height: 300px;
+    z-index: -1;
+}
+.contact-form-area .sec-title {
+    position: relative;
+    padding-bottom: 40px;
+}
+.contact-form-area .sec-title p {
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Courgette', cursive;
+    margin: 22px 0 0;
+}
+.contact-form-area .quick-contact {
+    border: 1px solid #f5f4f3;
+    display: block;
+    padding: 40px 25px 34px;
+}
+.contact-form-area .quick-contact .title {
+    padding-bottom: 30px;
+}
+.contact-form-area .quick-contact ul li{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content:space-evenly;
+}
+.contact-form-area .quick-contact ul li .text-holder h5 {
+    line-height: 26px;
+}
+.contact-form-area .quick-contact ul li .text-holder h5 span.closes{
+    color: #2acb35;
+}
+
+.contact-form-area .contact-form form {
+    background: #fcfcfc;
+    border: 1px solid #f0f0f0;
+    display: block;
+    padding: 39px 30px 39px;
+    width: 770px;
+}
+.contact-form-area .contact-form form h2 {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 35px;
+}
+.contact-form-area .contact-form form input[type="text"],
+.contact-form-area .contact-form form input[type="email"],
+.contact-form-area .contact-form form textarea{
+    background: #ffffff;
+    border: 1px solid #ececec;
+    color: #999999;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.contact-form-area .contact-form form textarea{
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.contact-form-area .contact-form form input[type="text"]:focus{
+    border-color: #2acb35;        
+}
+.contact-form-area .contact-form form input[type="email"]:focus{
+    border-color: #2acb35;        
+}
+.contact-form-area .contact-form form textarea:focus{
+    border-color: #2acb35;    
+}
+.contact-form-area .contact-form form button {
+    width: 100%;
+    padding: 14px 0 13px;
+}
