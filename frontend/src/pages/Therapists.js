@@ -1,7 +1,7 @@
 import React from 'react'
 import TopTitle from '../component/TopTitle'
 import Index from '../component/Index'
-import Expert from '../component/Expert'
+
 
 function Therapists() {
   const name = "Therapists"
