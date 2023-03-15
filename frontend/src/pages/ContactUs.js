@@ -12,9 +12,11 @@ function ContactUs() {
       <TopTitle title={name}/>
       <Index title={name}/>
       <div style={{ height: '50px' }}></div>
-      <ContactForm />
+      
     </div>
   )
 }
 
 export default ContactUs
+
+/*<ContactForm />*/

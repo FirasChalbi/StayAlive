@@ -1,0 +1,114 @@
+.experts-area {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.single-team-member{
+    margin-bottom: 40px;    
+}
+.single-team-member .inner-content{
+    position: relative;
+}
+.single-team-member .img-holder{
+    overflow: hidden;
+    position: relative;
+    display: block;    
+}
+.single-team-member .img-holder img{
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease 0s;
+    width: 100%;     
+}
+.single-team-member:hover .img-holder img{
+    transform: scale(1, 1);    
+}
+
+.single-team-member .img-holder .overlay-style-one .box .content ul li{
+    display: inline-block;
+    margin: 0 5px;    
+}
+.single-team-member .img-holder .overlay-style-one .box .content ul li a i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    transition: all 500ms ease;    
+}
+.single-team-member .img-holder .overlay-style-one .box .content ul li a:hover i{
+    background: #2acb35;
+}
+
+.single-team-member:hover .img-holder .overlay-style-one{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; 
+}
+
+.single-team-member .icon-holder {
+    position: absolute;
+    bottom: -39px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.single-team-member .icon-holder .inner {
+    border: 2px solid #2acb35;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0 auto;
+    transition: all 900ms ease;
+}
+.single-team-member:hover .icon-holder .inner{
+    border-color: #ffffff;
+}
+.single-team-member .icon-holder span:before {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: #2acb35;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 17px 0;
+}
+
+.single-team-member .text-holder {
+    display: block;
+    border: 1px solid #f4f4f4;
+    border-top: none;
+    display: block;
+    padding: 60px 0 25px;
+}
+.single-team-member .text-holder h3 {
+    margin: 0 0 15px;
+}
+.single-team-member .text-holder h4 {
+    color: #2acb35;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    margin: 0px 0 17px;
+}
+.single-team-member .text-holder .border{
+    width: 70px;
+    height: 1px;
+    display: block;
+    background: #f4f4f4;
+    margin: 0 auto;
+}
+.single-team-member .text-holder p {
+    margin: 14px 0 0;
+}
+.single-team-member .text-holder p span:before {
+    color: #2acb35;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    padding-right: 4px;
+    position: relative;
+    top: 1px;
+}

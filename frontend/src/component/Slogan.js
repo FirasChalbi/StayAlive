@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import slogan from '../image/slogan.jpg'
 import './Slogan.css'
 
@@ -23,7 +24,7 @@ function Slogan() {
                 <div class="inner-content" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h1>You're tired of feeling so stuck and disconnected</h1>
                     <p>You're hitting a breaking point in your life or relationship and need help from someone who gets it. <br />At SA, we can help.</p>
-                    <a class="thm-btn3 bgclr-1" href="dd.C">Make an Appointment</a>
+                    <Link class="thm-btn3 bgclr-1" to="/Therapists">Make an Appointment</Link>
                 </div>
             </div>
         </div>
