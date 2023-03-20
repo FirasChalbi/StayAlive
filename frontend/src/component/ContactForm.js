@@ -37,7 +37,7 @@ function ContactForm() {
                                 <FaPhoneAlt />
                             </div>
                             <div class="text-holder">
-                                <h5><span>Phone:</span> (123) 0200 12345 &amp;<br/>1800-45-678-9012</h5>
+                                <h5><span>Phone:</span> (123) 1234-12345 &amp;<br/>1800-45-678-9012</h5>
                             </div>
                         </li>
                         <li>
@@ -45,7 +45,7 @@ function ContactForm() {
                                 <FaEnvelope />
                             </div>
                             <div class="text-holder">
-                                <h5><span>Email:</span> Mailus@dailySpanz.com</h5>
+                                <h5><span>Email:</span> Mailus@.com</h5>
                             </div>
                         </li>
                         <li>

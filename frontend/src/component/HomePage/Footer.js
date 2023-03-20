@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../image/logo2.png'
-import arrow from '../image/arrow.png'
+import logo from '../../image/logo2.png'
+import arrow from '../../image/arrow.png'
 
 function Footer() {
   return (

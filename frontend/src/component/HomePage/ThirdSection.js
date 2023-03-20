@@ -1,7 +1,7 @@
 import React from 'react'
 import './ThirdSection.css'
-import fly from '../image/butterfly.png'
-import thera from '../image/therapist.png'
+import fly from '../../image/butterfly.png'
+import thera from '../../image/therapist.png'
 
 function ThirdSection() {
   return (

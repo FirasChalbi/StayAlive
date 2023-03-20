@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../image/doc.jpg'
-import fly from '../image/butterfly.png'
+import logo from '../../image/doc.jpg'
+import fly from '../../image/butterfly.png'
 import './SecondSection.css'
 
 function SecondSection() {

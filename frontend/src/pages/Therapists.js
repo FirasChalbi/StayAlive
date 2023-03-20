@@ -1,6 +1,7 @@
 import React from 'react'
 import TopTitle from '../component/TopTitle'
 import Index from '../component/Index'
+import Expert from '../component/Expert'
 
 
 function Therapists() {
@@ -11,10 +12,9 @@ function Therapists() {
       <TopTitle title={name}/>
       <Index title={name}/>
       <div style={{ height: '50px' }}></div>
-      
+      <Expert />
     </div>
   )
 }
 
 export default Therapists
-/*<Expert />*/

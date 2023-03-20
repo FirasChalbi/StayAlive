@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import slogan from '../image/slogan.jpg'
+import slogan from '../../image/slogan.jpg'
 import './Slogan.css'
 
 

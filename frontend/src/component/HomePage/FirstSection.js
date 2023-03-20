@@ -1,7 +1,7 @@
 import React from 'react'
 import './FirstSection.css'
-import arrow from '../image/arrow.png'
-import bvideo from '../video/bvideo.mp4'
+import arrow from '../../image/arrow.png'
+import bvideo from '../../video/bvideo.mp4'
 
 function FirstSection() {
   return (

@@ -1,7 +1,7 @@
-import FirstSection from '../component/FirstSection';
-import SecondSection from '../component/SecondSection';
-import ThirdSection from '../component/ThirdSection';
-import Slogan from '../component/Slogan';
+import FirstSection from '../component/HomePage/FirstSection';
+import SecondSection from '../component/HomePage/SecondSection';
+import ThirdSection from '../component/HomePage/ThirdSection';
+import Slogan from '../component/HomePage/Slogan';
 
 function App() {
   return (

@@ -39,6 +39,7 @@
     border: 1px solid #f5f4f3;
     display: block;
     padding: 40px 25px 34px;
+    text-align: left;
 }
 .contact-form-area .quick-contact .title {
     padding-bottom: 30px;
@@ -46,8 +47,8 @@
 .contact-form-area .quick-contact ul li{
     display: flex;
     flex-direction: row;
-    
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .contact-form-area .quick-contact ul li .text-holder h5 {
     line-height: 26px;

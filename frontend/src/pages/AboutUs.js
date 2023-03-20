@@ -1,5 +1,5 @@
 import React from 'react'
-import SecondSection from '../component/SecondSection'
+import SecondSection from '..//component/HomePage/SecondSection'
 import TopTitle from '../component/TopTitle'
 import Index from '../component/Index'
 
