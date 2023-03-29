@@ -1,14 +1,17 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../image/logo1.png';
+import enter from '../../image/enter.png'
+import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
 
-function Navbar() {
-  return (
+function Navbar({ onLoginButtonClick }) {
     
+  return (
     <div class="container">
+        
         <div class="row">
             <div class="col">
                 <nav class="main-menu">                
@@ -26,6 +29,7 @@ function Navbar() {
                                     </ul>
                                 <div class="dropdown-btn"></div></li>
                                 <li><Link to="/Therapists">Therapists</Link></li>
+                                
                                 <li class="dropdown"><Link to="/Screening">Screening</Link>
                                     <ul>
                                         <li><Link to="/About-Us">Depression Test</Link></li>
@@ -59,10 +63,13 @@ function Navbar() {
                                 <div class="dropdown-btn"></div></li>
                                 <li><Link to="/Contact-Us">Contact Us</Link></li>
                                 <li><Link to="/Resources">Resources</Link></li>
-                            </ul>    
+                                <li >
+                                    <button class="thm-btn3 bgclr-3"  onClick={onLoginButtonClick}>
+                                    <FaFacebookF className="fa" aria-hidden="true"/>
+                                    </button>    
+                                </li>
+                            </ul>   
                         </div>
-                        
-                    
                 </nav>
             </div>
         </div>

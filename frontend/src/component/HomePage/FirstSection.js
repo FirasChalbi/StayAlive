@@ -10,6 +10,7 @@ function FirstSection() {
         <img src={arrow} alt='ss'/>
         
         <div className='hh'>
+          
           <h1>Get your Issues Sorted</h1>
           <p>Stay Alive is a mental health website that aims to provide support
               to help <br />individuals improve their mental
@@ -49,4 +50,10 @@ export default FirstSection
   <source src={bvideo} type="video/mp4" />
   </video>
 </div>
+
+
+
+<div className="slide-content-box middle-slide">
+            <div className="reveal-text">Nurture, Restore, Heal...</div>
+          </div>  
 */

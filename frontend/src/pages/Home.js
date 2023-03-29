@@ -10,6 +10,7 @@ function App() {
       <SecondSection />
       <Slogan />
       <ThirdSection />
+      
     </div>
     
 

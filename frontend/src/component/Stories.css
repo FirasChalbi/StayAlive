@@ -1,0 +1,153 @@
+.card {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Apercu',sans-serif;
+    color: #4B4C4D;
+    font-size: 16px;
+    box-sizing: inherit;
+    will-change: transform;
+    min-width: 24.875rem;
+    padding: 0 0.75rem;
+    width: 24.875rem;
+    order: 5;
+    transform: none;
+  }
+  
+  .card__content {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Apercu',sans-serif;
+    font-size: 16px;
+    box-sizing: inherit;
+    background: #F5F2ED;
+    color: #413D45;
+    -webkit-box-align: start;
+    align-items: start;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 25rem;
+    min-height: 25.5rem;
+    width: 100%;
+    position: relative;
+    transition: opacity 500ms ease,top 500ms ease;
+    padding: 1.75rem 2rem;
+    top: 0;
+  }
+  .card-icon{
+    -webkit-text-size-adjust: 100%;
+    color: #413D45;
+    box-sizing: inherit;
+    margin-bottom: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 2.125rem;
+    display: block;
+    width: 100%;
+  }
+  .card-icon svg{
+    display: flex;
+    
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 2.125rem;
+    fill: none;
+    box-sizing: content-box;
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+    color: #FF7E1D;
+    
+  }
+  
+  .card__quote {
+    -webkit-text-size-adjust: 100%;
+    color: #413D45;
+    box-sizing: inherit;
+    margin-bottom: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 2.5rem; /* increased font size */
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 2.5rem; /* increased line-height */
+    display: block;
+    width: 100%;
+    margin-right: auto; /* added margin-right auto to align left */
+  }
+  .card__quote p{
+    -webkit-text-size-adjust: 100%;
+    color: #413D45;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 2.125rem;
+    box-sizing: inherit;
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .card__author{
+    display: flex;
+    -webkit-text-size-adjust: 100%;
+    color: #413D45;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 2.125rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: auto; /* added margin-right auto to align left */
+  }
+  
+  .card__author .card-name {
+    display: flex;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.25rem; /* increased font size */
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.5rem; /* increased line-height */
+    align-self: flex-start; /* changed to align left */
+    color: #67646a;
+    padding-bottom: 0.5rem;
+  }
+  
+  
+  .card__author .card-description {
+    display: flex;
+    -webkit-text-size-adjust: 100%;
+    color: #413D45;
+    box-sizing: inherit;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: Apercu,sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem; /* increased font size */
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.25rem; /* increased line-height */
+    align-self: flex-start; /* changed to align left */
+  }
